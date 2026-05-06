@@ -1,3 +1,4 @@
+
 # Envisat Space Debris SLR Tracker
 
 This project focuses on Space Situational Awareness (SSA) by analyzing Satellite Laser Ranging (SLR) tracking data for the Envisat satellite (a large piece of space debris). The pipeline parses raw CRD format tracking data, detects statistical anomalies (potential orbital decay or measurement errors), and leverages a local AI model (TinyLLaMA) to provide an expert analysis report.
@@ -38,3 +39,8 @@ If you prefer a containerized environment, navigate to the `envisat-analysis/` f
 docker-compose up --build
 ```
 This will spin up a Jupyter Data Science notebook with all required Python dependencies installed.
+
+# space-debris-SLR-LLM
+Analyzes Satellite Laser Ranging (SLR) data for Envisat to track orbital range over time, detect anomalies, and use a local TinyLLaMA model to assess potential orbital decay or perturbations in this large LEO debris object.
+
+ 2f78a98f6eb260381af282d85847d2f60cbca98a
