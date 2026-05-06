@@ -1,0 +1,19 @@
+
+You are an expert in space situational awareness. Analyze the following Envisat laser ranging data.
+
+1. Identify and explain any range anomalies (greater than 3σ from the median).
+2. Estimate if there's any orbital decay or pattern.
+3. Suggest recommendations for next tracking steps.
+
+Summary:
+- Median range: 0.011
+- Standard deviation: 0.002
+- Anomalies detected: 0
+
+Data sample (first 5 entries):
+ timestamp    range
+ 5218.2015 0.007453
+ 5219.1015 0.007434
+ 5219.6015 0.007424
+ 5239.8015 0.007058
+ 5339.2015 0.007090
